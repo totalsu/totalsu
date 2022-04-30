@@ -1,0 +1,9 @@
+print("3개의 정수 값을 입력하십시오.")
+n1 = int(input("n1의 정수값을 입력하십시오.:  "))
+n2 = int(input("n1의 정수값을 입력하십시오.:  "))
+n3 = int(input("n1의 정수값을 입력하십시오.:  "))
+
+total = n1 + n2 + n3
+average = total / 3
+
+print(average)
