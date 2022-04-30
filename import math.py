@@ -1,0 +1,26 @@
+#제곱 근 구하기
+import math
+
+print(" 'a, b, c' 3개의 값을 입력하시오.")
+a = int(input("Enter the a:  "))
+b = int(input("Enter the b:  "))
+c = int(input("Enter tne c:  "))
+
+d = math.sqrt(b * b) - (4 * a * c)
+x1 = ( -b +d ) / ( 2 * a )
+x2 = ( -b -d ) / ( 2 * a )
+print(x1, x2)
+
+#근의 공식 구하기
+
+from math import sqrt
+
+a = int(input("a의 값을 입력하십시오."))
+b = int(input("b의 값을 입력하십시오."))
+c = int(input("c의 값을 입력하십시오."))
+
+x1 = ( (-b + (match.sqrt(math.pow(b,2) -4 * a * c ))) / 2 * a )
+x2 = ( (-b - (match.sqrt(math.pow(b,2) -4 * a * c ))) / 2 * a )
+
+print("x1 = ", x1)
+print("x2 = ", x2)
